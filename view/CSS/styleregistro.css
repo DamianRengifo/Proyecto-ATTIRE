@@ -1,0 +1,107 @@
+.registro {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 439px;
+    width: 552px;
+}
+.registro .formRegistro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #efebe7;
+    box-shadow: 10px 10px 5px 3px #24282b;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.registro form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+    width: 80%;
+}
+
+.datos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+.InfoPers, .InfoCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 45%;
+}
+#boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select {
+    border-radius: 15px;
+    font-size: 20px;
+    width: 92%;
+    padding: 10px;
+    border: none;
+    outline-style: none;
+    appearance: none;
+}
+#tipoDoc{
+    min-width: 100%;
+}
+.button {
+    border: none;
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    background-color: #0063bb;
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 950px){
+
+    input[type="text"], input[type="password"], input[type="email"], select {
+        border-radius: 15px;
+        font-size: 15px;
+        min-width: 70%;
+        padding: 10px;
+        border: none;
+    }
+    .button {
+        border: none;
+        width: 70%;
+        color: white;
+        font-size: 10x;
+        background-color: #0063bb;
+        padding: 15px 20px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .alerta{
+        text-align: center;
+        color: rgb(223, 35, 35);
+        font-weight: bold;
+    }
+    .sucess{
+        text-align: center;
+        color: #0063bb;
+        font-weight: bold;
+    }
+
+}
+
